@@ -171,8 +171,8 @@ button{
 .container-flowerimg{
     display: flex;
     flex-wrap: wrap;
-    margin: 4vw 4vw 0vw 4vw;
-    padding-bottom: 3vw;
+    margin: 3vw 3vw 0vw 3vw;
+    padding-bottom: 5vw;
 }
 .flower-img{
     margin: 1.5vw 1.5vw;
