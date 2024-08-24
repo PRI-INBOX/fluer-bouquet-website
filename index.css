@@ -1,0 +1,559 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Lora", serif;
+    font-optical-sizing: auto;
+}
+body{
+    background-color: #efe3d9;
+}
+nav{
+    height: 5vw;;
+    width:100%;
+    padding: 1vw 3vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #efe2d9;
+}
+
+nav h2{
+    font-family: "Grey Qo", cursive;
+    font-weight: 500;
+    font-size: 3vmax; 
+}
+nav ul{
+    display: flex;
+    list-style: none;
+    gap: 6vw;
+    font-size: 1.4vmax;
+    color: #5f564c;
+}
+
+nav ul .ri-menu-fill{
+    display: none;
+}
+
+button{
+    padding: 0.5vw 1.5vw;
+    background-color: #e3ccba;
+    border: none;  
+}
+.landing-page{
+    height: 42vw;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: url("pexels-karolina-grabowska-6805518.jpg");
+    background-size: 100% 100% ;
+}
+.landing-page .text{
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    line-height: 7vw;
+}
+.text p{
+    color: #ffff;
+    font-size: 5vmax;   
+}
+.text #offer{
+    font-size: 2vmax;
+}
+.social-handle{
+    align-self: flex-start;
+    position: absolute;
+    bottom: 2vw;
+    padding: 0vw 3vw;
+    font-size: 2vmax;
+    color: rgb(255, 255, 255);
+}
+.more{
+    color: #ffff;
+    font-weight: 700;
+    position: absolute;
+    align-self: flex-end;
+    bottom: 2vw;
+    padding: 0vw 3vw;
+ 
+}
+.container-pg2{
+    background-color:#efe2d9 ;
+}
+#h1 , #h5{
+    padding: 2vw 0vw;
+    font-size: 3.8vmax;
+    text-align: center;
+    font-weight: 300;
+}
+#h5{
+    font-size: 1vw;
+    color: #797a74;
+}
+.container-card{
+    height: 50vw;
+    width: 100%;
+    padding: 2vw 6vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.container-card .card{
+    width: 22vw;
+    height: 39vw;
+}
+.card-content{
+    height: 17vw;
+    background-color: #e4ccbc;
+    padding: 2vw;
+}
+.card .card-content h2 ,h4{
+    line-height: 4vw;
+    text-align: center;
+}
+.container-card .card h2{
+    font-size: 2vmax;
+    font-weight: 400;
+    text-align:start;
+}
+.container-card .card img{
+    width: 22vw;
+    height: 21vw;
+    border: 1px solid black;
+    border-radius: 20vw 20vw 0vw 0vw ;
+    display: block;
+}
+.container-pg3{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: #ffffff;
+    height: 30vw;
+}
+.container-pg3 img {
+    width: 36vw;
+    height: 38vw;
+    border:  1px solid black;
+    border-radius: 0% 0% 50% 50%;
+}
+.pg3-content{
+    width: 48vw;
+    padding: 5vw;
+    text-align: center;
+    line-height: 1.7vw;
+}
+.pg3-content #h2,#h5{
+    font-weight: 300;
+}
+.pg3-content #h2{
+    font-size: 2vmax;
+    padding: 2vw 0vw;
+}
+.pg3-content #h5{
+    padding: 0vw ;
+}
+.pg3-content p{
+    font-size: 1vw;
+    padding: 0vw 0vw 2vw 0vw;
+}
+.container-pg4{
+    background-color: #e6cdba;
+}
+.container-pg4 h2{
+    text-align: center;
+    font-weight: 200;
+    font-size: 2.2vmax;
+}
+.container-flowerimg{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 4vw 4vw 0vw 4vw;
+    padding-bottom: 3vw;
+}
+.flower-img{
+    margin: 1.5vw 1.5vw;
+}
+.flower-img img{
+    width: 20vw;
+    height: 18vw;
+    border: 1px solid black;
+}
+.flower-img b {
+    font-weight: 100;
+    margin:0vw 0.4vw;
+    font-family: 'Segoe UI', Tahoma,  Verdana, sans-serif;
+}
+.flower-img #share{
+    margin-left: 7vw;
+    font-weight: 200;
+}
+.color{
+    height: 35vw;
+    background-color: #fff;
+} 
+.container-pg5{
+    height: 70vw;
+} 
+.container-pg5 .heading-pg5{
+    width: 50vw;
+    margin: auto;
+    text-align: center;
+}
+.heading-pg5 h2{
+    font-size: 3.5vmax;
+    font-weight: 200;
+}
+.heading-pg5 p{
+    padding: 1.5vw;
+}
+.container-choose{
+    margin: 1vw 12vw;
+    display: flex;
+    justify-content: space-between;
+}
+.container-pg5 .container-choose{
+    text-align: center;
+}
+.container-choose h2{
+    font-size: 3vmax;
+    font-weight: 200;
+}
+.container-choose p{
+    width: 34vw;
+    padding: 1.5vw;
+}
+.container-choose img{
+    width: 37vw;
+    height: 25vw;
+    border-radius: 50vw 50vw 0vw 0vw;
+    display: block;
+}
+.choose-content{
+    padding: 2vw 0vw;
+    background-color: #ffff;
+}
+.container-pg6{
+    height: 33vw;
+    background-color: #ffff;
+    display: flex;
+
+}
+.contact{
+    width: 35vw;
+    height: 28vw;
+    padding: 3.5vw;
+    text-align: center;
+    margin: auto;
+    margin-top:5vw ;
+    background-color: #e6cdba;
+    border-radius: 50vw 50vw 0vw 0vw;
+    line-height: 1.8vw;
+}
+.contact h2{
+    font-size:2.3vmax ;
+    font-weight: 200;
+    margin: 3vw 0vw;
+}
+.contact button{
+    background-color:#eee2d8 ;
+    margin: 2.5vw;
+}
+.line{
+    display: block;
+    max-width:100%;
+    height: 0.1vw;
+    background-color: black;
+}
+.container-footer {
+    display: flex;
+    justify-content: space-between;
+    height: 18vw;
+    padding: 2vw;
+}
+.container-footer .left h3{
+    font-family: "Grey Qo", cursive;
+    font-size: 4vmax; 
+    font-weight: 500;
+}
+.container-footer .left p{
+    font-size: 1.1vw;
+    line-height: 4vw;
+}
+#email{
+    height: 2.4vw;
+    width: 12vw;
+    padding: 1vw ;
+    background-color: #ffffff;
+    font-size: 1.2vmax;
+    border: none;
+}
+.container-footer button{
+    font-size: 1.1vw;
+    margin: 1.5vw 1vw ;
+}
+.right{
+    margin-top: 1vw;
+    display: flex;
+    gap: 10vw;
+    line-height: 1.5vw;
+    font-size: 1vmax;
+    font-style: bold;
+    
+}
+.right ul{
+    list-style: none; 
+}
+.container-socialHandles {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    padding: 0.5vw;
+    background-color:#d6b49c;
+    font-size: 1.2vw; 
+}
+.container-socialHandles #text-footer{
+    color: #ffff;
+    display: inline-block;
+    margin-top: 0.1vw;
+}
+.footer-logo{
+    font-size: 1.5vw; 
+    margin: 0vw 2vw;
+}
+
+
+@media (max-width:600px) {
+   
+    nav{
+        height: 16vw;;
+        padding: 2vw 5vw;
+    }
+    
+    nav h2{
+        font-size: 5.2vmax; 
+    }
+    nav ul li{
+        display: none;
+    }
+    nav ul .ri-menu-fill{
+        display:inline-block;
+        font-size: 3.7vmax;
+    }
+    .landing-page{
+        height: 120vw;
+        padding: 0vw 1vw;  
+    }
+    .landing-page .text{
+        line-height: 16vw;
+    }
+    .text p{
+        color: #ffff;
+        font-size: 5.6vmax;  
+        text-align: center; 
+    }
+    .text #offer{
+        font-size: 2.3vmax;
+    }
+    .social-handle{
+        top: 125vw; 
+    }
+    .more{
+        font-weight:900;
+        font-size: 1.3vmax;
+        top: 125vw;
+    }
+    button{
+        padding: 1.5vw 3.5vw;
+    }
+    #h1 , #h5{
+        padding: 4vw 0vw 0vw 0vw;
+        font-size: 5vmax;
+        font-weight: 100;
+    }
+    #h5{
+        font-weight: 600;
+        font-size: 2.8vw;
+    }
+    .container-card{
+        height: 350vw;
+        padding: 5vw 0vw;
+        margin :5vw 0vw;
+    }
+    .container-card .card{
+        width: 80vw;
+        margin: 2vw 10vw;
+    }
+    .card-content{
+        height: 56vw;
+        padding: 4vw;
+    }
+    .card .card-content h2 ,h4{
+        line-height: 11vw;
+        text-align: center;
+    }
+    .container-card .card h2{
+        font-size: 3vmax;
+        font-weight: 400;
+        text-align:center;
+    }
+    .container-card .card img{
+        width: 80vw;
+        height: 55vw;
+        border-radius: 50vw 50vw 0vw 0vw ;
+    }
+    .container-pg3{
+        height: 80vw;
+    }
+    .container-pg3 img {
+        display: none;
+    }
+    .pg3-content{
+        width: 100vw;
+        padding: 5vw;
+        line-height: 4.8vw;
+    }
+    .pg3-content #h2,#h5{
+        font-weight: 100;
+    }
+    .pg3-content #h2{
+        font-size: 3.2vmax;
+        padding: 7vw 0vw;
+    }
+    .pg3-content p{
+        font-size: 3.2vw;
+        margin-bottom: 3vw;
+    }
+    .container-pg4 h2{
+        margin: 5vw 0vw 0vw 0vw;
+        font-weight: 100;
+        font-size: 4vmax;
+    }
+    .container-flowerimg{
+        margin: 10vw 13vw ;
+        padding-bottom: 10vw;
+    }
+    .flower-img{
+        margin: 4vw 0vw;
+    }
+    .flower-img img{
+        width: 75vw;
+        height: 60vw;
+        margin-bottom: 1.5vw;
+    }
+    .flower-img b {
+        font-weight:300;
+    }
+    .flower-img #share{
+        margin-left: 26vw;
+        font-weight: 300;
+    }
+    .color{
+        height: 75vw;
+    }
+    .container-pg5{ 
+        height: 170vw;
+        margin: -10vw 0vw;
+    } 
+    .container-pg5 .heading-pg5{
+        line-height: 6.5vw;
+        width: 100%;
+    }
+    .heading-pg5 h2{
+        font-size: 4.5vmax;
+        font-weight: 100;
+        margin: 3vw 0vw;
+    }
+    .container-choose{
+        margin: 4vw 3vw;
+    }
+    .container-choose h2{
+        font-size: 3.2vmax;
+        font-weight: 200;
+    }
+    .container-choose p{
+        display: none;
+    }
+    .container-choose button{
+        padding: 1.5vw 6vw;
+        margin: 6vw;  
+    }
+    .container-choose img{
+        width: 46vw;
+        height: 35vw;
+        border-radius: 50vw 50vw 0vw 0vw;
+        margin-right: 2vw;
+    }
+    .choose-content{
+        margin: 0vw 2vw 0vw 0vw;
+    }
+    .container-pg6{
+        height: 67vw;
+        background-color: #fcf7f7;
+    }
+    .contact{
+        width: 77vw;
+        height: 55vw;
+        padding: 8vw;
+        margin-top:12vw ;
+        line-height: 3.6vw;
+    }
+    .contact p{
+        font-size: 3.3vw;
+    }
+    .contact h2{
+        font-size:3vmax ;
+        font-weight: 200;
+        margin: 3vw 2vw;
+    }
+    .contact button{
+        font-size: 1.5vmax;
+        margin: 3.5vw;
+    }
+    .line{
+        height: 0.2vw;
+    }
+    .container-footer {
+        height: 54vw;
+        padding: 3vw 5vw;
+    }
+    .container-footer .left h3{
+        font-size: 6vmax; 
+    }
+    .container-footer .left p{
+        font-size: 2.7vw;
+        line-height: 3vw;
+        margin: 1vw;
+    }
+    #email{
+        height: 3.4vw;
+        width: 26vw;
+        padding: 2vw ;
+        font-size: 1.6vmax;
+    }
+    .container-footer button{
+        font-size: 2vw;
+        margin: 1vw 0vw ;
+    }
+    .right{ 
+        margin-top: 3vw;
+        gap: 2.5vw;
+        line-height: 4.1vw;
+        font-size: 1.3vmax;
+        font-weight: 500;
+    }
+    .container-socialHandles {
+        padding: 2vw;
+        font-size: 2.2vw; 
+    }
+    .container-socialHandles #text-footer{
+        margin-top: 1vw;
+    }
+    .footer-logo{
+        font-size: 4.8vw; 
+        margin: 0vw 4vw;
+    }
+}
